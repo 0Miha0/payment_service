@@ -1,6 +1,16 @@
+spring:
+  mvc:
+    servlet:
+      path: /api/v1
+
 server:
   port: 9080
 
 logging:
   level:
     root: info
+
+services:
+  open-exchange-rates:
+    api-key: b3478478995d489e8230bf681bf5f1b8
+    url: https://openexchangerates.org/api/
